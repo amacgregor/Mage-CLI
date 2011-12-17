@@ -1,19 +1,20 @@
-A *simple* shell script to load up a Magento environment and execute PHP code
-Very experimental and should only be ran on dev servers
+Magento InteRactive Console
+Developer : Allan MacGregor (dev@allanmacgregor.com)
+
+Based on : https://github.com/rgranadino/Interactive-Magento-Console by rgranadino
+
+MIRC is designed to load the Magento Enviroment, and allow you to run Magento code; 
+this is specially useful when you need to do sandbox test or run quick snippets of 
+code.
+
+Very experimental and should only be ran on dev servers, currently only linux is supported.
 
 REQUIRES 
   php readline
   php pcntl
 
-KNOWN ISSUES
-ctrl+c doesn't exit app until you return/enter (but at least it'll save your history)
-poorly written auto complete functionality
-input must be able to be eval'd (e.g. `$x="` would cause a syntax error)
-
-
 INSTALL
-place in your include path or base magento directory, make sure it's executable
-must be ran from base magento directory
+Place it inside your MAGENTO_ROOT/shell/ directory.
 
-History File Saved at ~/.imc_history
-Log File Saved at ~/imc.log
+History File Saved at MAGENTO_ROOT/var/log/magento_mirc.log
+Log File Saved at MAGENTO_ROOT/var/log/magento_mirc.log
