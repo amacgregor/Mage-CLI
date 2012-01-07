@@ -1,9 +1,9 @@
-Magento InteRactive Console
+Magento Command Line Interface (Mage-CLI)
 Developer : Allan MacGregor (dev@allanmacgregor.com)
 
 Based on : https://github.com/rgranadino/Interactive-Magento-Console by rgranadino
 
-MIRC is designed to load the Magento Enviroment, and allow you to run Magento code; 
+Mage-CLI is designed to load the Magento Enviroment, and allow you to run Magento code; 
 this is specially useful when you need to do sandbox test or run quick snippets of 
 code.
 
